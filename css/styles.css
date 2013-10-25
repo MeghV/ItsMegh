@@ -263,9 +263,9 @@ nav ul li {
 }
 
 nav ul a {
+	display: block;
 	text-decoration: none;
 	color: inherit;
-	padding: 5% 50%;
 }
 main {
 	font-weight: 400;
