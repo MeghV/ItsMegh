@@ -275,14 +275,17 @@ main p {
 	color: #FB0;
 	font-weight: bold;
 }
+
 /* Media queries */
-
-
 @media screen and (max-width: 759px) {
 	.icon {
-		width: 50px;
-		height: 50px;
+		width: 30px;
+		height: 30px;
 		padding: 20px;
+	}
+
+	nav {
+		font-size: 13px;
 	}
 }
 @media screen and (max-width: 1280px) {
@@ -317,6 +320,5 @@ main p {
 	main img {
 		height: 130px;
 	}
-
 }
 
