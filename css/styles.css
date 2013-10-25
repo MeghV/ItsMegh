@@ -15,12 +15,25 @@ body {
 	font-size: 16px;
 }
 
+.container,
+.name,
+.content,
+.bottom {
+
+	-moz-transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	transition: all .3s linear;
+}
+
 .row {
 	width: 100%;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 }
 
+
+		
 .col-3 {
 	float: left;
 	width: 25%;
@@ -152,6 +165,10 @@ footer {
 	margin: 0 auto;
 	padding: auto;
 	position: relative;
+	-moz-transition: all .2s linear;
+		-webkit-transition: all .2s linear;
+		-o-transition: all .2s linear;
+		transition: all .s linear;
 }
 
 .col-3:hover {
