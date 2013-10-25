@@ -15,8 +15,6 @@ body {
 	font-size: 16px;
 }
 
-.container,
-.name,
 .content,
 .bottom {
 
@@ -43,18 +41,11 @@ body {
 	box-sizing: border-box;
 }
 
-.active,
-#one {
+.active {
 	color: #0ac5f4;
 	border-bottom: 2px solid #0ac5f4;
 }
 
-#two,
-#three,
-#four {
-	background: black;
-	color: white;
-}
 
 h2 {
 	font-family: 'Lato';
@@ -125,6 +116,13 @@ footer {
 
 }
 
+h3 {
+	font-family: inherit;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
 .icon:hover {
 	opacity: 1;
 	-webkit-filter: grayscale(0%);
@@ -165,18 +163,13 @@ footer {
 	margin: 0 auto;
 	padding: auto;
 	position: relative;
-	-moz-transition: all .2s linear;
-		-webkit-transition: all .2s linear;
-		-o-transition: all .2s linear;
-		transition: all .s linear;
 }
 
-.col-3:hover {
-	opacity: .95;
+.inactive:hover {
 	cursor: pointer;
 	border-bottom: 2px solid white;
-	color: black;
 }
+
 .name {
 	width: 100%;
 }
@@ -269,6 +262,11 @@ nav ul li {
 	font-size: 1.7em;
 }
 
+nav ul a {
+	text-decoration: none;
+	color: inherit;
+	padding: 5% 30%;
+}
 main {
 	font-weight: 400;
 	width: 95%;
@@ -289,10 +287,10 @@ main img {
 main p {
 	text-align: left;
 }
-.bold {
+.highlight {
 	color: #FB0;
-	font-weight: bold;
-}
+/*	font-weight: bold;
+*/}
 
 /* Media queries */
 @media screen and (max-width: 759px) {
