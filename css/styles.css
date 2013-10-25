@@ -67,6 +67,7 @@ footer {
 	width: 100%;
 }
 .contact-icons li {
+	border-radius: 99px;
 	display: inline-block;
 	list-style: none;
 	padding: 15px;
