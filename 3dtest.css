@@ -1,0 +1,28 @@
+body {
+	perspective: 800px;
+	-webkit-perspective: 800px;
+}
+
+.card {
+	position: absolute;
+	transform-tyle: preserve-3d;
+	transition: transform 1s;
+}
+
+.card div {
+	display: block;
+	position: absolute;
+	backface-visibility: hidden;
+}
+
+.front {
+  background: red;
+}
+.back {
+  background: blue;
+  transform: rotateY( 180deg );
+}
+
+.card:hover {
+	transform: rotateY(180deg);
+}
