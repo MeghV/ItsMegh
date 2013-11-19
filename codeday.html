@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Games += Code</title>
+	<link rel="stylesheet" type="text/css" href="css/CDaystyles.css">
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<script id="gameSc" type="text/javascript" src=""></script>
+</head>
+<body>
+<div>
+	<canvas id="game" width="500" height="500"></canvas>
+	<canvas id="controller" width="500" height="100"></canvas>
+</div>
+<div>
+<h4>
+	Welcome to Game+=code
+</h4>
+<p>Looking for a quick project to learn html5 canvas and javascript?</p>
+<p>Game+=code is a collaborative game community of ten second games produced by new developers like you!</p>
+<p>We provide you with a 500x500 canvas with the id of "game". We support jQuery and Create.js, and will add more libraries upon request. The score is stored in a global variable called score, so just type "score++;" when the player wins to update their score.
+<p>Just write a .js file and submit it to be added to the collection.</p>
+<input type="file"/>
+<input style="color: black" value="Submit" type="submit"/>
+<p>More documentation to come soon.</p>
+<p>Music is Indolence (Renovation Mix) by Kubbi</p>
+</div>
+	<script src="http://code.createjs.com/easeljs-0.7.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<!--<script type="text/javascript" src="main.js"></script>-->
+	<script type="text/javascript" src="js/controller.js"></script>
+
+	<audio src="music/kubbi_renovation-mixes_indolence-renovation-mix.mp3" autoplay>
+  		Your browser does not support the <code>audio</code> element.
+	</audio>
+</body>
+</html>

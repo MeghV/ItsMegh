@@ -1,0 +1,26 @@
+/* styles.css */
+html {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+	 background-image:url('../img/frame.png');
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-color:#031634;
+
+}
+
+canvas{
+	margin: 0 auto;
+	display: block;
+}
+div {
+	width: 100%;
+	text-align:center;
+	margin-top:50px;
+}
+
+h4, input, p{
+	color:#FFFFFF;
+}
